@@ -191,7 +191,7 @@ public class EasyGestureService extends Service implements SensorEventListener{
 
 		mSharedPreferences = getSharedPreferences(EasyGestureSetting.PREFERENCES_PRIVATE_EASY_GESTURE_SERVICE, Activity.MODE_PRIVATE);
 		
-		SecLog.e(TAG, "onStartCommand:"+mSharedPreferences.getBoolean(EasyGestureSetting.KEY_PREFERENCES_EGS_FUNCTION_DISABLED, EasyGestureSetting.DEFAULT_VALUE_BOOL_FUNCTION_DISABLED));
+		SecLog.e(TAG, "jianli, onStartCommand:"+mSharedPreferences.getBoolean(EasyGestureSetting.KEY_PREFERENCES_EGS_FUNCTION_DISABLED, EasyGestureSetting.DEFAULT_VALUE_BOOL_FUNCTION_DISABLED));
 
 		if(mSharedPreferences.getBoolean(EasyGestureSetting.KEY_PREFERENCES_EGS_FUNCTION_DISABLED, EasyGestureSetting.DEFAULT_VALUE_BOOL_FUNCTION_DISABLED) == true){
 			
