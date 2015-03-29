@@ -242,7 +242,7 @@ public class EasyGestureService extends Service implements SensorEventListener{
 
 				@Override
 				public void handleMessage(Message msg) {
-					SecLog.e(TAG, "jianli handleMessage");
+					SecLog.e(TAG, "handleMessage");
 					mLooperHandler.sendEmptyMessageDelayed(0, 1000);
 					super.handleMessage(msg);
 				}
