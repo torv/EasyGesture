@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+	<string-array name="settingArray">
+		<item>左滑</item>
+		<item>右滑</item>
+		<item>上滑</item>
+		<item>下滑</item>
+		<item>单击</item>
+		<item>双击</item>
+	</string-array>
+
+	<string-array name="actionArray">
+		<item>关闭</item>
+		<item>开关手电筒</item>
+		<item>显示最近应用</item>
+		<item>返回桌面</item>
+		<item>下拉通知栏</item>
+		<item>锁屏</item>
+		<item>隐藏图标</item>
+		<item>调节透明度</item>
+		<item>急速快拍</item>
+	</string-array>
+	
+	<string-array name="wakeupWay">
+		<item>关闭</item>
+		<item>从手机倒立翻转到正立</item>
+		<item>从手机水平翻转到正立</item>
+	</string-array>
+	
+	<string-array name="iconArray">
+		<item>图标一</item>
+		<item>图标二</item>
+		<item>图标三</item>
+		<item>图标四</item>
+		<item>图标五</item>
+		<item>图标六</item>
+		<item>图标七</item>
+		<item>图标八</item>
+		<item>图标九</item>
+		<item>图标十</item>
+	</string-array>
+
+</resources>

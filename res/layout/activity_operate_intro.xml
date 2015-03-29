@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/intro_one"
+        	android:textSize="17sp" />
+        	
+    </RelativeLayout>
+
+    <View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/intro_two"
+        	android:textSize="17sp" />
+        	
+    </RelativeLayout>
+
+    <View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/intro_three"
+        	android:textSize="17sp" />
+        	
+    </RelativeLayout>
+
+    <View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/intro_four"
+        	android:textSize="17sp" />
+        	
+    </RelativeLayout>
+
+    <View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/intro_five"
+        	android:textSize="17sp" />
+        	
+    </RelativeLayout>
+
+    <View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/intro_six"
+        	android:textSize="17sp" />
+        	
+    </RelativeLayout>
+
+    <View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/intro_seven"
+        	android:textSize="17sp" />
+        	
+    </RelativeLayout>
+
+    <View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+    
+
+</LinearLayout>

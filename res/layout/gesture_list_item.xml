@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/relative_item"
+    android:orientation="horizontal" >
+
+	<LinearLayout
+		android:id="@+id/id_ll_list_item"
+    	android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/id_tv_gesture_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/id_tv_gesture_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_tv_gesture_item"
+            android:layout_alignParentLeft="true"
+            android:textColor="#999999"
+            android:textSize="10sp" />
+	</LinearLayout>
+
+	<ImageView
+        android:id="@+id/id_im_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"        
+        android:src="@drawable/setting_arrow" />
+
+</RelativeLayout>

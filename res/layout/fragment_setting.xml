@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="10dp"
+    	android:orientation="horizontal" >
+
+  		<LinearLayout
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:orientation="vertical" >
+
+        	<TextView
+            	android:id="@+id/id_tv_enable_dis_function"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textColor="#000000"
+            	android:text="@string/enable_function"
+            	android:textSize="17sp" />
+
+        	<TextView
+            	android:id="@+id/id_tv_function_status"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_below="@id/id_tv_enable_dis_function"
+            	android:layout_alignParentLeft="true"
+            	android:text="@string/enabled"
+            	android:textColor="#999999"
+            	android:textSize="10sp" />
+    	</LinearLayout>
+
+    	<ToggleButton
+        	android:id="@+id/id_tb_function_control"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:layout_alignParentRight="true"
+        	android:background="@android:color/transparent"
+        	android:button="@drawable/switch_btn"
+        	android:checked="false"
+        	android:text=""
+        	android:textOff=""
+        	android:textOn="" />
+
+	</RelativeLayout>
+	
+	<RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="10dp"
+    	android:orientation="horizontal" >
+
+  		<LinearLayout
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:orientation="vertical" >
+
+        	<TextView
+            	android:id="@+id/id_tv_enable_icon_move"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textColor="#000000"
+            	android:text="@string/enable_icon_move"
+            	android:textSize="17sp" />
+
+        	<TextView
+            	android:id="@+id/id_tv_icon_move_status"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_below="@id/id_tv_enable_icon_move"
+            	android:layout_alignParentLeft="true"
+            	android:text="@string/enabled"
+            	android:textColor="#999999"
+            	android:textSize="10sp" />
+    	</LinearLayout>
+
+    	<ToggleButton
+        	android:id="@+id/id_tb_enable_icon_move"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:layout_alignParentRight="true"
+        	android:background="@android:color/transparent"
+        	android:button="@drawable/switch_btn"
+        	android:checked="true"
+        	android:text=""
+        	android:textOff=""
+        	android:textOn="" />
+
+	</RelativeLayout>
+	
+	<RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="10dp"
+    	android:orientation="horizontal" >
+
+  		<LinearLayout
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:orientation="vertical" >
+
+        	<TextView
+            	android:id="@+id/id_tv_enable_rotate_shot"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textColor="#000000"
+            	android:text="@string/enable_rotate_shot"
+            	android:textSize="17sp" />
+
+        	<TextView
+            	android:id="@+id/id_tv_rotate_shot_status"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_below="@id/id_tv_enable_rotate_shot"
+            	android:layout_alignParentLeft="true"
+            	android:text="@string/disabled"
+            	android:textColor="#999999"
+            	android:textSize="10sp" />
+    	</LinearLayout>
+
+    	<ToggleButton
+        	android:id="@+id/id_tb_quick_capture"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:layout_alignParentRight="true"
+        	android:background="@android:color/transparent"
+        	android:button="@drawable/switch_btn"
+        	android:checked="false"
+        	android:text=""
+        	android:textOff=""
+        	android:textOn="" />
+
+	</RelativeLayout>
+	
+	<View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+	
+	<RelativeLayout
+		android:id="@+id/id_rl_wake_up_gesture"
+		android:background="@drawable/relative_item"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+
+  		<LinearLayout
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:layout_margin="10dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:orientation="vertical" >
+
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textColor="#000000"
+            	android:text="@string/wake_up_gesture"
+            	android:textSize="17sp" />
+
+    	</LinearLayout>
+    	
+    	<ImageView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:layout_alignParentRight="true"
+        	android:layout_margin="10dp"
+        	android:layout_centerVertical="true"        
+        	android:src="@drawable/setting_arrow" />
+
+	</RelativeLayout>
+	
+	<View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+	
+	<RelativeLayout
+		android:id="@+id/id_rl_operation_intro"
+		android:background="@drawable/relative_item"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+
+  		<LinearLayout
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:layout_margin="10dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:orientation="vertical" >
+
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textColor="#000000"
+            	android:text="@string/operate_intro"
+            	android:textSize="17sp" />
+
+    	</LinearLayout>
+    	
+    	<ImageView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:layout_alignParentRight="true"
+        	android:layout_margin="10dp"
+        	android:layout_centerVertical="true"        
+        	android:src="@drawable/setting_arrow" />
+
+	</RelativeLayout>
+	
+	<View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+
+	<RelativeLayout
+		android:id="@+id/id_rl_restore_default"
+		android:background="@drawable/relative_item"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+
+  		<LinearLayout
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:layout_margin="10dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:orientation="vertical" >
+
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textColor="#000000"
+            	android:text="@string/restore_default"
+            	android:textSize="17sp" />
+
+    	</LinearLayout>
+    	
+    	<ImageView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:layout_alignParentRight="true"
+        	android:layout_margin="10dp"
+        	android:layout_centerVertical="true"        
+        	android:src="@drawable/setting_arrow" />
+
+	</RelativeLayout>
+	
+	<View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+<!--	
+	<RelativeLayout
+		android:id="@+id/id_rl_share_wechat"
+		android:background="@drawable/relative_item"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+
+  		<LinearLayout
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:layout_margin="10dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:orientation="vertical" >
+
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textColor="#000000"
+            	android:text="@string/share_wechat"
+            	android:textSize="17sp" />
+
+    	</LinearLayout>
+    	
+    	<ImageView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:layout_alignParentRight="true"
+        	android:layout_margin="10dp"
+        	android:layout_centerVertical="true"        
+        	android:src="@drawable/setting_arrow" />
+
+	</RelativeLayout>
+	
+	<View  
+   		android:layout_width="fill_parent"
+    	android:layout_height="1px"
+   		android:background="?android:attr/listDivider"  
+	/>
+-->
+</LinearLayout>

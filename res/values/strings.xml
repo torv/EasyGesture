@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easy Gesture</string>
+    <string name="url_version_xml">http://easygesture.oss-cn-beijing.aliyuncs.com/version.xml</string>
+    <string name="version_update">Easy Gesture Update</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="android_version_not_support">Your Android Version not support this function</string>
+    <string name="not_support_flash">Not support flash</string>
+    <string name="flash_is_not_available_now">Flash is not available now</string>
+    <string name="title_select_action">Select Action</string>
+    <string name="basic_setting">Basic Setting</string>
+    <string name="image_setting">Icon Setting</string>
+    <string name="gesture_setting">Gesture Setting</string>
+    <string name="enable_function">Enable Gesture</string>
+    <string name="enable_rotate_shot">Enable Rotate Shot</string>
+    <string name="enable_icon_move">Icon move when slide</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="restore_default">Restore default action</string>
+    <string name="wake_up_gesture">Wake Up Screen Gesture</string>
+    <string name="select_icon">Select Icon</string>
+    <string name="adjust_alpha">Adjust Icon Alpha</string>
+    <string name="title_reset_dialog">Do you want to reset to default setting?</string>
+    <string name="ok">Ok</string>
+    <string name="title_wake_up_dialog">Wakeup Screen way</string>
+    <string name="title_select_icon">Select Icon</string>
+    <string name="share_wechat">Share to Wechat</string>
+    <string name="operate_intro">Operation Introduction</string>
+    <string name="intro_one">1. Tap "Enable" Toggle button to enable the function, a float view will show up.</string>
+    <string name="intro_two">2. Long Click: Long lick the float view 2 seconds, then you can move the view position. So when you try to operate other gesture, do not long click.</string>
+    <string name="intro_three">3. Quick Slide: When try quick left/right/up/down slide operation, slide from the view, move forwards to the target direction for a distance, then quick release.</string>
+    <string name="intro_four">4. Wake up Screen: When your phone screen locked, rotate from upside down to upside up, the screen will wake up.(default)</string>
+    <string name="intro_five">5. Rotate Shot: Rotate phone from rightside down to rightside up.</string>
+    <string name="intro_six">6. Specific Gesture and Operation please refer to the Gesture Setting page.</string>
+    <string name="intro_seven">7. If you want to uninstall, please go setting>security>device admin and deactive this app.</string>
+
+</resources>

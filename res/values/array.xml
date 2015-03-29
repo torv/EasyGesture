@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+	<string-array name="settingArray">
+		<item>Slide left</item>
+		<item>Slide right</item>
+		<item>Slide up</item>
+		<item>Slide down</item>
+		<item>Single tap</item>
+		<item>Double tap</item>
+	</string-array>
+
+	<string-array name="actionArray">
+		<item>Disable</item>
+		<item>Open/Close torch</item>
+		<item>Show recent apps</item>
+		<item>Back home</item>
+		<item>Expand notification bar</item>
+		<item>Lock Screen</item>
+		<item>Hide the ball</item>
+		<item>Adjust Alpha</item>
+		<item>Quick Shot</item>
+	</string-array>
+	
+	<string-array name="wakeupWay">
+		<item>Close</item>
+		<item>Rotate upside down to up</item>
+		<item>Rotate horizontal to upside up</item>
+	</string-array>
+	
+	<string-array name="iconArray">
+		<item>Icon One</item>
+		<item>Icon Two</item>
+		<item>Icon Three</item>
+		<item>Icon Four</item>
+		<item>Icon Five</item>
+		<item>Icon Six</item>
+		<item>Icon Seven</item>
+		<item>Icon Eight</item>
+		<item>Icon Nine</item>
+		<item>Icon Ten</item>
+	</string-array>
+</resources>

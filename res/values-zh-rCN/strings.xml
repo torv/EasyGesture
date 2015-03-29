@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">简易手势</string>
+    <string name="version_update">简易手势更新</string>
+    <string name="update">更新</string>
+    <string name="cancel">取消</string>
+    <string name="android_version_not_support">您的安卓版本不支持此功能</string>
+    <string name="not_support_flash">不支持闪光灯</string>
+    <string name="flash_is_not_available_now">当前闪光灯不可用</string>
+    <string name="title_select_action">选择动作</string>
+    <string name="basic_setting">基本设置</string>
+    <string name="image_setting">图标设置</string>
+    <string name="gesture_setting">手势设置</string>
+    <string name="enable_function">开启手势</string>
+    <string name="enable_rotate_shot">开启旋转快拍</string>
+    <string name="enable_icon_move">滑动时图标跟随移动</string>
+    <string name="enabled">已开启</string>
+    <string name="disabled">已关闭</string>
+    <string name="restore_default">恢复默认设置</string>
+    <string name="wake_up_gesture">唤醒屏幕方式</string>
+    <string name="select_icon">选择图标</string>
+    <string name="adjust_alpha">调节图标透明度</string>
+    <string name="title_reset_dialog">恢复默认设置?</string>
+    <string name="ok">确定</string>
+    <string name="title_wake_up_dialog">唤醒屏幕方式</string>
+    <string name="title_select_icon">选择图标</string>
+    <string name="share_wechat">分享到微信</string>
+    <string name="operate_intro">操作说明</string>
+    <string name="intro_one">1. 点击开启就会开启此功能，会出现一个悬浮的图标.</string>
+    <string name="intro_two">2. 长按：长按2秒可以移动图标位置，所以进行滑动操作时请不要长按.</string>
+    <string name="intro_three">3. 快速滑动: 尝试上下左右滑动操作时，从图标开始，朝目标方向滑动约1厘米，然后迅速放开.</string>
+    <string name="intro_four">4. 唤醒屏幕: (默认)把手机从竖直朝下翻转到竖直朝上可以唤醒屏幕.</string>
+    <string name="intro_five">5. 转屏快拍: 旋转手机从右侧朝下到右侧朝上.</string>
+    <string name="intro_six">6. 具体的手势和对应的操作详见手势设置页面.</string>
+    <string name="intro_seven">7. 如欲卸载，请先到设置>安全>设备管理器 取消激活此程序</string>
+
+</resources>
